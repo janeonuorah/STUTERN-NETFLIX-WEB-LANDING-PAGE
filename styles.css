@@ -1,0 +1,264 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #737373;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+}
+
+section {
+    background-color: black;
+}
+
+section#first-part {
+    background-image: url(./images/Netflix-Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+div#top {
+    justify-content: space-between;
+}
+
+div#netflix-logo img {
+    width: 200px;
+}
+
+button#signup-button {
+    color: white;
+    background-color: #E50914;
+    width: 84.18px;
+    height: 34px;
+    font-size: 16px;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: #E50914;
+}
+
+div#text1 {
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+p.content {
+    margin: 0 250px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p.watch {
+    font-size: 26px;
+    padding: 20px;
+}
+
+p.email-prompt {
+    font-size: 23px;
+    padding: 0 95px 20px 90px;
+}
+
+#email {
+    width: 600px;
+    height: 51px;
+    font-size: 20px;
+}
+
+button#get-started {
+    background-color: #E50914;
+    border-color: #E50914;
+    padding: 0 16px;
+    color: white;
+    width: 190px;
+    height: 51px;
+    font-size: 24px;
+}
+
+div#text2 {
+    color: white;
+    padding: 200px 70px;
+}
+
+p.enjoy {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p.wheretowatch {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+img.tv {
+    width: 900px;
+    height: 500px;
+    padding: 10px 70px;
+}
+
+section#third-part {
+    padding: 5px;
+}
+
+p.download {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+div#download {
+    border: 1px solid #737373;
+    border-radius: 10px;
+    background-color: black;
+    width: 400px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -140px;
+    left: 120px;
+}
+
+p#downloading {
+    color: blue;
+}
+
+div#download img.photo {
+    width: 70px;
+    padding: 10px;
+}
+
+div#download img#arrow {
+    width: 80px;
+    height: 50px;
+}
+
+p#strangerthings {
+    color: white;
+}
+
+p.save {
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+div#text3 {
+    color: white;
+    padding: 200px 100px;
+}
+
+section#fourth-part {
+    color: white;
+    padding: 70px 110px;
+    
+}
+
+p.stream {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 700px;
+}
+
+div#text5 {
+    color: white;
+    padding: 200px 70px;
+}
+
+section#fifth-part img {
+    width: 600px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+p#create {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p#send-kids {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-right: 150px;
+}
+
+section#sixth-part {
+    padding: 70px 45px;
+    color: white;
+}
+
+p#FAQs {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section#sixth-part button.dropdown {
+    background-color: #303030;
+    color: white;
+    border: 1px solid white;
+    margin: 20px auto;
+    padding: 20px 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+}
+
+section#sixth-part button img {
+    width: 30px;
+}
+
+div#down-emailprompt{
+ text-align: center;
+}
+
+section#seventh-part{
+    padding: 70px 45px 0;
+    color: #737373;
+    font-size: 13px;
+}
+
+section#seventh-part a{
+text-decoration: none;
+color: #737373;
+}
+
+section#seventh-part div#questions{
+    margin-bottom: 20px;
+}
+
+section#seventh-part div#questions a{
+    margin-left:115px;
+}
+
+section#seventh-part ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+}
+
+section#seventh-part ul div{
+    text-align: left;
+    margin-right: 150px;
+}
+
+section#seventh-part ul div li{
+    margin: 10px;
+    padding: 3px;
+}
+
+section#seventh-part p{
+    margin-left: 115px;
+    margin-top: 20px;
+}
